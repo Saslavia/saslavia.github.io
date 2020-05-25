@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+	<title>Constitution of Saokosia</title>
+	<meta name="description" content="Kingdom of Saokosia" />
+	<meta name="keywords" content="kingdom, of, saokosia" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/icon.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="timer.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);			
+			$('#link1').click(function() {$.scrollTo($('.footer'), 500);});
+			$('.scrollup').click(function() {$.scrollTo($('body'), 1000);});
+		}		
+		);
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else$('.scrollup').fadeOut();
+		}
+		);
+	</script>
+</head>
+<body>
+	<!--<a href="#" class="scrollup"></a>-->
+	<div class="main">
+		<div class="top">
+			<div class="logo">
+				<a href="index.html" style="color:white; text-decoration:none;">Kingdom of Saokosia</a>
+			</div>
+			<div class="nav">
+				<ol>
+					<li>About Saokosia
+						<ul>
+							<li><a href="about.html">About Kingdom</a></li>
+							<li><a href="king.html">King</a></li>
+							<li><a href="history.html">History</a></li>
+							<li><a href="album.html">Photos</a></li>
+							<li><a href="symbols.html">National Symbols</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</li>
+					<li>Government
+						<ul>
+							<li><a href="government.html">Government</a></li>
+							<li><a href="ministries.html">Ministries</a></li>
+							<li><a href="law.html">Law</a></li>
+							<li><a href="speeches.html">Speeches</a></li>
+							<li><a href="diplomacy.html">Diplomacy</a></li>
+							<li><a href="citizen.html">Citizenship</a></li>
+						</ul>
+					</li>
+					<li>Army
+						<ul>
+							<li><a href="army.html">Army</a></li>
+							<li><a href="mofwar.html">Ministry of War</a></li>
+							<li><a href="navy.html">Navy</a></li>
+						</ul>
+					</li>
+					<li>Places
+						<ul>
+							<li><a href="map.html">Map</a></li>
+						</ul>
+					</li>
+					<li>Culture
+						<ul>
+							<li><a href="holidays.html">Holidays</a></li>
+							<li><a href="heroes.html">Heroes</a></li>
+							<li><a href="media.html">Media</a></li>
+							<li><a href="awards.html">Awards</a></li>
+							<li><a href="callendar.html">Callendar</a></li>
+						</ul>
+					</li>
+					<li>Misc
+						<ul>
+							<li><a href="news.html">News</a></li>
+							<li><a href="shop.html">Online Shop</a></li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<div class="content">
+			<div class="left">
+				<font style="font-size:12px;"><br/>
+					<a href="#" target="_blank">Constitution in Polish</a><br/>
+					<a href="img/constitution.pdf" target="_blank">Constitution.pdf</a>
+				</font><br/><br/>					
+				<div style="padding:0px 10px 0px 10px; text-align:center;"><font style="font-size:45px;">
+					The Constitution of the Kingdom of Saokosia
+				</font></div><br/>
+				<font style="font-size:27px;">
+					Chapter 1
+				</font><br/><br/>
+				<font style="font-size:22.5px;">
+					Article I
+				</font>
+				<font style="font-size:15px;">
+					<li>§1. The Constitution of the Kingdom of Saokosia is the supreme law of the Kingdom of Saokosia.</li>
+					<li>§2. The king rules the Kingdom of Saokosia.</li>
+					<li>§3. Saokosia is an ethnically and culturally homogeneous state.</li>
+				</font>
+			</div>
+			<div class="right">
+				<div id="zegar"></div><br/>
+				<img src="img/ad.png" />
+				<br/><br/><a href="https://info.flagcounter.com/86xF"><img src="https://s04.flagcounter.com/count2/86xF/bg_DBDBDB/txt_2E2E2E/border_A8A8A8/columns_2/maxflags_8/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a><br/><br/>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="footer">
+			Kingdom of Saokosia &copy; 2019-2020
+		</div>
+	</div>
+</body>
+</html>

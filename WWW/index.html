@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+	<title>Kingdom of Saslavia</title>
+	<meta name="description" content="Kingdom of Saslavia" />
+	<meta name="keywords" content="kingdom, of, saslavia" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/icon.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="timer.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);			
+			$('#link1').click(function() {$.scrollTo($('.footer'), 500);});
+			$('.scrollup').click(function() {$.scrollTo($('body'), 1000);});
+		}		
+		);
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else$('.scrollup').fadeOut();
+		}
+		);
+	</script>	
+</head>
+<body onload="date();">
+	<!--<a href="#" class="scrollup"></a>-->
+	<div class="main">
+		<div class="top">
+			<div class="logo">
+				<a href="index.html" style="color:white; text-decoration:none;">Kingdom of Saslavia</a>
+			</div>
+			<div class="nav">
+				<ol>
+					<li>About Saslavia
+						<ul>
+							<li><a href="about.html">About Kingdom</a></li>
+							<li><a href="king.html">King</a></li>
+							<li><a href="history.html">History</a></li>
+							<li><a href="photos.html">Photos</a></li>
+							<li><a href="symbols.html">National Symbols</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</li>
+					<li>Government
+						<ul>
+							<li><a href="government.html">Government</a></li>
+							<li><a href="ministries.html">Ministries</a></li>
+							<li><a href="law.html">Law</a></li>
+							<li><a href="speeches.html">Speeches</a></li>
+							<li><a href="diplomacy.html">Diplomacy</a></li>
+							<li><a href="citizenship.html">Citizenship</a></li>
+						</ul>
+					</li>
+					<li>Army
+						<ul>
+							<li><a href="army.html">Army</a></li>
+							<li><a href="mofwar.html">Ministry of War</a></li>
+							<li><a href="navy.html">Navy</a></li>
+						</ul>
+					</li>
+					<li>Places
+						<ul>
+							<li><a href="map.html">Map</a></li>
+						</ul>
+					</li>
+					<li>Culture
+						<ul>
+							<li><a href="holidays.html">Holidays</a></li>
+							<li><a href="heroes.html">Heroes</a></li>
+							<li><a href="media.html">Media</a></li>
+							<li><a href="awards.html">Awards</a></li>
+							<li><a href="calendar.html">Calendar</a></li>
+						</ul>
+					</li>
+					<li>Misc
+						<ul>
+							<li><a href="News.html">News</a></li>
+							<li><a href="shop.html">Shop</a></li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<div class="content">
+			<div class="left">
+				<div class="title">
+					<h1 style="text-align:center;"><a id="link1" href="#">Kingdom of Saslavia</a></h1>
+					<hr noshade>
+				</div>
+				<div class="herb"><a href="img/herb.png"><img title="Arms" src="img/herb.png"></a><p>Arms of Saslavia </p></div>
+				
+				<p><b>Kingdom of Saslavia</b> is a sovereign state based on the history and culture of Slavs. <br><p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper id odio at lobortis. Fusce ac sollicitudin eros, ut auctor ex. Curabitur ullamcorper a augue ut imperdiet. Ut ultricies interdum est vitae posuere. Sed sagittis mauris eget eros consectetur, non bibendum neque varius. Pellentesque vitae egestas libero. Maecenas sed laoreet mi, nec aliquet sapien. Nulla facilisi. Nulla vel neque eu massa sollicitudin luctus. Morbi lobortis nunc eget eleifend hendrerit. Mauris dapibus nulla eget urna hendrerit tristique. Pellentesque venenatis, odio eget facilisis consectetur, mauris arcu feugiat leo, at luctus mauris dui imperdiet nibh. Integer faucibus sapien elit, tempor rhoncus dui tincidunt a. Quisque dapibus quam purus, a varius turpis vehicula vel. Nullam sapien turpis, tincidunt quis molestie sed, ornare quis nisl.</p>
+
+				<p>Nullam ullamcorper erat elit, at varius orci rutrum eu. Aliquam neque nunc, aliquam at quam faucibus, facilisis pretium risus. Aenean at vulputate nibh, ac tempor nisi. In hac habitasse platea dictumst. Aliquam et sem est. Ut volutpat leo a arcu ultrices, quis mattis nisi pellentesque. Donec ullamcorper ex vel metus venenatis, id fringilla leo laoreet. Duis sit amet purus sed nisi sagittis venenatis. Nulla facilisi. Nullam dignissim est in pharetra aliquet. Sed sit amet mauris urna. Proin interdum tellus ligula, in interdum lectus aliquet sed. Curabitur bibendum lacus at lectus pulvinar consequat. Quisque malesuada cursus felis egestas ultricies.</p>
+
+				<p>Nam porttitor mattis libero consequat porta. Fusce pulvinar vel quam id volutpat. Aliquam lacinia dolor at dui maximus, eu tempor lorem pellentesque. Ut maximus eros quis tempus euismod. Fusce ultricies, dui et mollis blandit, tellus elit efficitur augue, nec pharetra mauris eros nec urna. Suspendisse tristique pretium leo luctus pulvinar. Nullam tincidunt gravida nibh eu blandit. Quisque pharetra non odio eu bibendum. Suspendisse lobortis laoreet tellus congue malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin sodales efficitur. Sed quis metus vel nisl rutrum molestie. Integer ullamcorper blandit arcu sed aliquet.</p>
+
+				<p>Vivamus a nisl nec orci pharetra tincidunt sed eu enim. Sed placerat viverra sagittis. Suspendisse efficitur sem ornare mollis pulvinar. Praesent ultrices a orci at sollicitudin. Ut finibus tempus erat ornare tempus. Phasellus ut dictum dui. Phasellus mattis aliquam enim, vitae lobortis arcu pharetra eget. Vivamus volutpat nisi ut dolor rutrum, non hendrerit turpis interdum. Nullam dapibus nibh eget aliquam porta. Nam mattis pulvinar facilisis. Nulla fermentum quam nulla, non vehicula nisi finibus sit amet.</p>
+						
+				<p>Aliquam porttitor justo sit amet velit varius, at aliquam purus feugiat. Morbi commodo magna quis blandit placerat. Curabitur porta justo non suscipit ultrices. Vivamus sit amet eros risus. Vivamus vitae eros luctus, molestie nisi ut, ornare quam. Pellentesque molestie dapibus elit, in finibus diam facilisis ut. Donec ultricies urna convallis egestas rhoncus. Etiam in diam elit.</p>
+			</div>
+			<div class="right">
+				<h3><a href="news.html">News</a></h3>
+				<li>FFF</li>
+				<li>FFF</li>
+				<li>FFF</li><br/>
+				<div id="zegar"></div><br/>
+				<img src="img/ad.png" />
+				<br/><br/><a href="https://info.flagcounter.com/86xF"><img src="https://s04.flagcounter.com/count2/86xF/bg_DBDBDB/txt_2E2E2E/border_A8A8A8/columns_2/maxflags_8/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a><br/><br/>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="footer">
+			Kingdom of Saslavia &copy; 2019-2020
+		</div>
+	</div>
+</body>
+</html>
